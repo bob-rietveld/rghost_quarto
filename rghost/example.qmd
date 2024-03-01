@@ -1,9 +1,0 @@
----
-title: "Rghost Example"
----
-
-## Heading
-
-{{< rghost >}}
-
-{{< button #link >}}
