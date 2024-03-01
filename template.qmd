@@ -1,0 +1,13 @@
+---
+title: "Enter your title"
+author: "Author"
+status: "draft"
+type: "posts"
+format:
+  html:
+    minimal: true
+tags: [""]
+---
+
+# Start writing your content
+
