@@ -1,12 +1,23 @@
 ---
-title: "Enter your title"
+title: "Enter your title" # title is mandatory
 author: "Author"
-status: "draft"
-type: "posts"
+status: "draft" # draft, published, scheduled
+type: "posts" # posts or pages
+featured: false # true or false
+visibility: "public" # can be any of ghost defined tiers
 format:
   html:
     minimal: true
-tags: [""]
+tags: [""] # tags are optional
+# newsletter parameters
+email_only: false # set true or false for posting and emailing
+newsletter: 'default-newsletter' # define the newsletter to send the post to
+published_at: "2024-03-02T00:00:00.000Z" # set the date and time in the future for sending for publishing
+email_segment: "all" # define the segment to send the post to
+
+
+# Review Ghost documentation here https://ghost.org/docs/content-api/#posts
+# Access cards by wrapping html content in <!--kg-card-begin: html--> and  <!--kg-card-end: html-->
 ---
 
 # Start writing your content
